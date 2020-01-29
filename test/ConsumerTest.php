@@ -14,10 +14,11 @@ class ConsumerTest extends TestCase
         $config->setProviderName("personProvider")
             ->setProviderVersion("1.0.0")
             ->setProviderBaseUrl(new Uri("http://localhost:8080"))
+            ->setBrokerUri(new Uri("http://localhost:9292"))
             ->setPublishResults(true);
 
         $verifier = new Verifier($config);
-        $verifier->verifyFiles([__DIR__ . ])
+        $verifier->verifyAll();
 
         $this->assertTrue(true);
     }

@@ -1,0 +1,123 @@
+# Logfile created on 2020-01-12 19:39:21 +0000 by logger.rb/47272
+I, [2020-01-12T19:39:21.246809 #35589]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-12T19:39:21.246913 #35589]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T19:39:21.246935 #35589] DEBUG -- : body :
+I, [2020-01-12T19:39:21.260228 #35589]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has a matching body'
+I, [2020-01-12T19:39:21.260317 #35589]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T19:39:21.260340 #35589] DEBUG -- : body :
+I, [2020-01-12T19:39:21.261639 #35589]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2020-01-12T19:39:21.261714 #35589]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T19:39:21.261736 #35589] DEBUG -- : body :
+I, [2020-01-12T19:45:34.945237 #35667]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-12T19:45:34.945375 #35667]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T19:45:34.945412 #35667] DEBUG -- : body :
+I, [2020-01-12T19:45:35.018540 #35667]  INFO -- : Received response with status: 200, headers: {"Host"=>"localhost:8080", "Date"=>"Sun, 12 Jan 2020 19:45:35 GMT", "Connection"=>"close", "X-Powered-By"=>"PHP/7.3.12", "Content-Type"=>"text/html; charset=UTF-8", "Content-Length"=>"0"}, see debug logs for body
+D, [2020-01-12T19:45:35.018612 #35667] DEBUG -- : body: 
+I, [2020-01-12T19:48:21.538368 #35710]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-12T19:48:21.538511 #35710]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T19:48:21.538538 #35710] DEBUG -- : body :
+I, [2020-01-12T19:48:21.555706 #35710]  INFO -- : Received response with status: 200, headers: {"Host"=>"localhost:8080", "Date"=>"Sun, 12 Jan 2020 19:48:21 GMT", "Connection"=>"close", "X-Powered-By"=>"PHP/7.3.12", "Content-Type"=>"text/html; charset=UTF-8", "Content-Length"=>"62"}, see debug logs for body
+D, [2020-01-12T19:48:21.555855 #35710] DEBUG -- : body: {"first_name":"Dade","last_name":"Murphy","alias":"Zero Cool"}
+I, [2020-01-12T19:51:47.962095 #35754]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-12T19:51:47.962364 #35754]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T19:51:47.962427 #35754] DEBUG -- : body :
+I, [2020-01-12T19:51:47.979647 #35754]  INFO -- : Received response with status: 200, headers: {"Host"=>"localhost:8080", "Date"=>"Sun, 12 Jan 2020 19:51:47 GMT", "Connection"=>"close", "X-Powered-By"=>"PHP/7.3.12", "Content-Type"=>"text/html; charset=UTF-8", "Content-Length"=>"62"}, see debug logs for body
+D, [2020-01-12T19:51:47.979817 #35754] DEBUG -- : body: {"first_name":"Dade","last_name":"Murphy","alias":"Zero Cool"}
+I, [2020-01-12T19:52:15.172331 #35794]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-12T19:52:15.172477 #35794]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T19:52:15.172504 #35794] DEBUG -- : body :
+I, [2020-01-12T19:52:15.190484 #35794]  INFO -- : Received response with status: 200, headers: {"Host"=>"localhost:8080", "Date"=>"Sun, 12 Jan 2020 19:52:15 GMT", "Connection"=>"close", "X-Powered-By"=>"PHP/7.3.12", "Content-Type"=>"text/html; charset=UTF-8", "Content-Length"=>"62"}, see debug logs for body
+D, [2020-01-12T19:52:15.190567 #35794] DEBUG -- : body: {"first_name":"Dade","last_name":"Murphy","alias":"Zero Cool"}
+I, [2020-01-12T19:52:51.240379 #35834]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-12T19:52:51.240518 #35834]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T19:52:51.240546 #35834] DEBUG -- : body :
+I, [2020-01-12T19:52:51.256539 #35834]  INFO -- : Received response with status: 200, headers: {"Host"=>"localhost:8080", "Date"=>"Sun, 12 Jan 2020 19:52:51 GMT", "Connection"=>"close", "X-Powered-By"=>"PHP/7.3.12", "Content-Type"=>"text/html; charset=UTF-8", "Content-Length"=>"62"}, see debug logs for body
+D, [2020-01-12T19:52:51.256595 #35834] DEBUG -- : body: {"first_name":"Dade","last_name":"Murphy","alias":"Zero Cool"}
+I, [2020-01-12T19:54:31.828512 #35883]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-12T19:54:31.828650 #35883]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T19:54:31.828687 #35883] DEBUG -- : body :
+I, [2020-01-12T19:54:31.845962 #35883]  INFO -- : Received response with status: 200, headers: {"Host"=>"localhost:8080", "Date"=>"Sun, 12 Jan 2020 19:54:31 GMT", "Connection"=>"close", "X-Powered-By"=>"PHP/7.3.12", "Content-Type"=>"text/html; charset=UTF-8", "Content-Length"=>"62"}, see debug logs for body
+D, [2020-01-12T19:54:31.846029 #35883] DEBUG -- : body: {"first_name":"Dade","last_name":"Murphy","alias":"Zero Cool"}
+I, [2020-01-12T19:57:19.476970 #35924]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-12T19:57:19.477108 #35924]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T19:57:19.477151 #35924] DEBUG -- : body :
+I, [2020-01-12T19:57:19.501645 #35924]  INFO -- : Received response with status: 500, headers: {"Host"=>"localhost:8080", "Date"=>"Sun, 12 Jan 2020 19:57:19 GMT", "Connection"=>"close", "X-Powered-By"=>"PHP/7.3.12", "Content-Type"=>"application/json", "Content-Length"=>"84"}, see debug logs for body
+D, [2020-01-12T19:57:19.501739 #35924] DEBUG -- : body: {
+    "message": "Cannot access protected property Slim\\Psr7\\Response::$headers"
+}
+I, [2020-01-12T19:58:23.356211 #35964]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-12T19:58:23.356473 #35964]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T19:58:23.356508 #35964] DEBUG -- : body :
+I, [2020-01-12T19:58:23.372337 #35964]  INFO -- : Received response with status: 200, headers: {"Host"=>"localhost:8080", "Date"=>"Sun, 12 Jan 2020 19:58:23 GMT", "Connection"=>"close", "X-Powered-By"=>"PHP/7.3.12", "Content-Type"=>"text/html; charset=UTF-8", "Content-Length"=>"62"}, see debug logs for body
+D, [2020-01-12T19:58:23.372393 #35964] DEBUG -- : body: {"first_name":"Dade","last_name":"Murphy","alias":"Zero Cool"}
+I, [2020-01-12T19:58:42.115835 #36004]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-12T19:58:42.115985 #36004]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T19:58:42.116011 #36004] DEBUG -- : body :
+I, [2020-01-12T19:58:42.130971 #36004]  INFO -- : Received response with status: 200, headers: {"Host"=>"localhost:8080", "Date"=>"Sun, 12 Jan 2020 19:58:42 GMT", "Connection"=>"close", "X-Powered-By"=>"PHP/7.3.12", "Content-Type"=>"application/json", "Content-Length"=>"62"}, see debug logs for body
+D, [2020-01-12T19:58:42.131022 #36004] DEBUG -- : body: {"first_name":"Dade","last_name":"Murphy","alias":"Zero Cool"}
+I, [2020-01-12T20:02:09.329818 #36158]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-12T20:02:09.329956 #36158]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T20:02:09.329980 #36158] DEBUG -- : body :
+I, [2020-01-12T20:02:09.384199 #36158]  INFO -- : Received response with status: 404, headers: {"Host"=>"localhost:8080", "Date"=>"Sun, 12 Jan 2020 20:02:09 GMT", "Connection"=>"close", "X-Powered-By"=>"PHP/7.3.12", "Content-Type"=>"application/json", "Content-Length"=>"31"}, see debug logs for body
+D, [2020-01-12T20:02:09.384276 #36158] DEBUG -- : body: {
+    "message": "Not found."
+}
+I, [2020-01-12T20:05:19.616229 #36202]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-12T20:05:19.616363 #36202]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T20:05:19.616387 #36202] DEBUG -- : body :
+I, [2020-01-12T20:05:19.634558 #36202]  INFO -- : Received response with status: 200, headers: {"Host"=>"localhost:8080", "Date"=>"Sun, 12 Jan 2020 20:05:19 GMT", "Connection"=>"close", "X-Powered-By"=>"PHP/7.3.12", "Content-Type"=>"text/html; charset=UTF-8", "Content-Length"=>"0"}, see debug logs for body
+D, [2020-01-12T20:05:19.634694 #36202] DEBUG -- : body: 
+I, [2020-01-12T20:06:44.971405 #36268]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-12T20:06:44.971532 #36268]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T20:06:44.971567 #36268] DEBUG -- : body :
+I, [2020-01-12T20:06:44.986762 #36268]  INFO -- : Received response with status: 200, headers: {"Host"=>"localhost:8080", "Date"=>"Sun, 12 Jan 2020 20:06:44 GMT", "Connection"=>"close", "X-Powered-By"=>"PHP/7.3.12", "Content-Type"=>"text/html; charset=UTF-8", "Content-Length"=>"0"}, see debug logs for body
+D, [2020-01-12T20:06:44.986862 #36268] DEBUG -- : body: 
+I, [2020-01-12T20:07:56.953453 #36311]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-12T20:07:56.953595 #36311]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T20:07:56.953619 #36311] DEBUG -- : body :
+I, [2020-01-12T20:07:56.971969 #36311]  INFO -- : Received response with status: 200, headers: {"Host"=>"localhost:8080", "Date"=>"Sun, 12 Jan 2020 20:07:56 GMT", "Connection"=>"close", "X-Powered-By"=>"PHP/7.3.12", "Content-Type"=>"application/json", "Content-Length"=>"2"}, see debug logs for body
+D, [2020-01-12T20:07:56.972031 #36311] DEBUG -- : body: []
+I, [2020-01-12T20:09:10.238691 #36351]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-12T20:09:10.238854 #36351]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T20:09:10.238881 #36351] DEBUG -- : body :
+I, [2020-01-12T20:09:10.255895 #36351]  INFO -- : Received response with status: 200, headers: {"Host"=>"localhost:8080", "Date"=>"Sun, 12 Jan 2020 20:09:10 GMT", "Connection"=>"close", "X-Powered-By"=>"PHP/7.3.12", "Content-Type"=>"application/json", "Content-Length"=>"62"}, see debug logs for body
+D, [2020-01-12T20:09:10.255956 #36351] DEBUG -- : body: {"first_name":"Dade","last_name":"Murphy","alias":"Zero Cool"}
+I, [2020-01-12T20:10:14.230696 #36391]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-12T20:10:14.230830 #36391]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T20:10:14.230855 #36391] DEBUG -- : body :
+I, [2020-01-12T20:10:14.248521 #36391]  INFO -- : Received response with status: 200, headers: {"Host"=>"localhost:8080", "Date"=>"Sun, 12 Jan 2020 20:10:14 GMT", "Connection"=>"close", "X-Powered-By"=>"PHP/7.3.12", "Content-Type"=>"application/json", "Content-Length"=>"71"}, see debug logs for body
+D, [2020-01-12T20:10:14.248613 #36391] DEBUG -- : body: {"first_name":"Dade","last_name":"Murphy","alias":"Zero Cool","age":26}
+I, [2020-01-12T20:11:03.397783 #36431]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-12T20:11:03.397938 #36431]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T20:11:03.397963 #36431] DEBUG -- : body :
+I, [2020-01-12T20:11:03.414567 #36431]  INFO -- : Received response with status: 200, headers: {"Host"=>"localhost:8080", "Date"=>"Sun, 12 Jan 2020 20:11:03 GMT", "Connection"=>"close", "X-Powered-By"=>"PHP/7.3.12", "Content-Type"=>"application/json", "Content-Length"=>"51"}, see debug logs for body
+D, [2020-01-12T20:11:03.414642 #36431] DEBUG -- : body: {"first_name":"Dade","last_name":"Murphy","age":26}
+I, [2020-01-12T20:11:21.877792 #36471]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-12T20:11:21.877926 #36471]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T20:11:21.877950 #36471] DEBUG -- : body :
+I, [2020-01-12T20:11:21.895957 #36471]  INFO -- : Received response with status: 200, headers: {"Host"=>"localhost:8080", "Date"=>"Sun, 12 Jan 2020 20:11:21 GMT", "Connection"=>"close", "X-Powered-By"=>"PHP/7.3.12", "Content-Type"=>"application/json", "Content-Length"=>"71"}, see debug logs for body
+D, [2020-01-12T20:11:21.896015 #36471] DEBUG -- : body: {"first_name":"Dade","last_name":"Murphy","alias":"Zero Cool","age":26}
+I, [2020-01-12T20:11:38.533202 #36511]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-12T20:11:38.533364 #36511]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T20:11:38.533399 #36511] DEBUG -- : body :
+I, [2020-01-12T20:11:38.551846 #36511]  INFO -- : Received response with status: 200, headers: {"Host"=>"localhost:8080", "Date"=>"Sun, 12 Jan 2020 20:11:38 GMT", "Connection"=>"close", "X-Powered-By"=>"PHP/7.3.12", "Content-Type"=>"application/json", "Content-Length"=>"72"}, see debug logs for body
+D, [2020-01-12T20:11:38.551963 #36511] DEBUG -- : body: {"first_name":"Dade","last_name":"Murphy","alias":"Zero Cool!","age":26}
+I, [2020-01-12T20:12:55.408853 #36551]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-12T20:12:55.408993 #36551]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-12T20:12:55.409018 #36551] DEBUG -- : body :
+I, [2020-01-12T20:12:55.426511 #36551]  INFO -- : Received response with status: 200, headers: {"Host"=>"localhost:8080", "Date"=>"Sun, 12 Jan 2020 20:12:55 GMT", "Connection"=>"close", "X-Powered-By"=>"PHP/7.3.12", "Content-Type"=>"application/json", "Content-Length"=>"71"}, see debug logs for body
+D, [2020-01-12T20:12:55.426571 #36551] DEBUG -- : body: {"first_name":"Dade","last_name":"Murphy","alias":"Zero Cool","age":26}
+I, [2020-01-28T19:45:09.082694 #3375]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-28T19:45:09.083128 #3375]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-28T19:45:09.083157 #3375] DEBUG -- : body :
+I, [2020-01-28T19:45:09.096854 #3375]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has a matching body'
+I, [2020-01-28T19:45:09.096983 #3375]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-28T19:45:09.097007 #3375] DEBUG -- : body :
+I, [2020-01-28T19:45:09.098500 #3375]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2020-01-28T19:45:09.098613 #3375]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-28T19:45:09.098637 #3375] DEBUG -- : body :
+I, [2020-01-28T20:58:06.753316 #4784]  INFO -- : Running example 'Verifying a pact between personConsumer and personProvider Given Person Dade Murphy (Zero Cool) exists GET person for id: abc-123-def-456 with GET /person/abc-123-def-456 returns a response which has status code 200'
+I, [2020-01-28T20:58:06.753741 #4784]  INFO -- : Sending GET request to path: "/person/abc-123-def-456" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept"}, see debug logs for body
+D, [2020-01-28T20:58:06.753777 #4784] DEBUG -- : body :
+I, [2020-01-28T20:58:06.825740 #4784]  INFO -- : Received response with status: 200, headers: {"Host"=>"localhost:8080", "Date"=>"Tue, 28 Jan 2020 20:58:06 GMT", "Connection"=>"close", "X-Powered-By"=>"PHP/7.3.12", "Content-Type"=>"application/json", "Content-Length"=>"71"}, see debug logs for body
+D, [2020-01-28T20:58:06.825892 #4784] DEBUG -- : body: {"first_name":"Dade","last_name":"Murphy","alias":"Zero Cool","age":26}
