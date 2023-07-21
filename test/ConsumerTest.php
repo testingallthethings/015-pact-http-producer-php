@@ -12,13 +12,17 @@ class ConsumerTest extends TestCase
     {
         $config = new VerifierConfig();
         $config->setProviderName("personProvider")
-            ->setProviderVersion("1.0.0")
+            ->setProviderVersion(exec('git rev-parse --short HEAD'))
+            ->setProviderBranch(exec('git rev-parse --abbrev-ref HEAD'))
             ->setProviderBaseUrl(new Uri("http://localhost:8080"))
             ->setBrokerUri(new Uri("http://localhost:9292"))
             ->setPublishResults(true);
 
         $verifier = new Verifier($config);
         $verifier->verifyAll();
+        // $verifier->verifyFiles([__DIR__ . '/../pacts/personconsumer-personprovider.json']);
+        // You can verify the local file, but ensure you don't have setPublishResults to true, as pact-php doesn't stop verifications
+        // being published
 
         $this->assertTrue(true);
     }

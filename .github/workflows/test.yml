@@ -1,0 +1,29 @@
+name: Build
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: actions/checkout@v3
+      - name: "Installing Pact CLI Tools"
+        run: |
+          make install_pact_cli
+          echo "PATH=${PATH}:${PWD}/pact/bin/" >> $GITHUB_ENV
+      - run: pact help
+      - name: Start OSS Pact Broker
+        run: make broker_up
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.1
+      - run: make publish_pacts
+      - run: make start_and_test
+      - name: Stop docker
+        if: always()
+        run: make broker_down
