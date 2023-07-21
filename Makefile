@@ -1,3 +1,6 @@
+install:
+	composer install
+
 install_pact_cli:
 	curl -fsSL https://raw.githubusercontent.com/pact-foundation/pact-ruby-standalone/master/install.sh | PACT_CLI_VERSION=v2.0.3 bash
 
